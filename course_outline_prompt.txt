@@ -1,0 +1,37 @@
+I am creating a comprehensive online course on the following subject: %s 
+
+Additional information pertaining to the course includes: %s
+
+The goal is to elevate the student's understanding from minimal to well-educated on the subject. 
+
+The course will be structured into modules, each focusing on a distinct aspect of the subject. Each module will further be divided into sections, with each section covering a specific topic in detail. There will be a minimum of 5 to 9 modules for the course and a minimum of 5 to 9 lessons per module. 
+
+I require an outline for this course in JSON format. The outline should include a course title, a list of modules, and within each module, a list of sections. Each module and section should have a title and a brief description. 
+
+Please ensure the JSON format is correct, with arrays to list modules and sections, and objects to define the properties of the course, modules, and sections. Use clear and informative titles and descriptions that align with the goal of educating investment analysts about the semiconductor industry from a beginner to an advanced level.
+
+An example format for the JSON outline is:
+
+[
+  {
+    'course_title': course title,
+    'modules': [
+      {
+        'title': module title,
+        'description': module description,
+        'sections': [
+          {
+            'title': section title,
+            'description': section description
+          },
+          {
+            'title': section title,
+            'description': section description
+          }
+        ]
+      }
+    ]
+  }
+]
+
+

@@ -1,0 +1,41 @@
+* {
+    font-family: Poppins, sans-serif; /* Sets the font family for all elements */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes the body full viewport height */
+    margin: 0; /* Removes default margin */
+  }
+
+  /* Styles the form to have a flex layout, directing children to be in a column and centered */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Adds some space between form elements */
+  }
+
+  /* Adjusts the width of input and textarea elements to be consistent */
+  input[type="text"],
+  textarea {
+    width: 300px; /* Sets a fixed width, adjust as needed */
+    padding: 10px; /* Adds some padding inside the inputs and textarea for better text visibility */
+  }
+
+  /* Styles the submit button */
+  input[type="submit"] {
+    cursor: pointer; /* Changes cursor to pointer when hovering over the button */
+    padding: 10px 20px; /* Adjust padding for better appearance */
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Rounds the corners of the button */
+  }
+
+  /* Optional: Add a hover effect for the submit button */
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* Darkens the button color on hover */
+  }

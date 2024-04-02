@@ -1,0 +1,169 @@
+[
+    {
+        "course_title": "Electromagnetism for Beginners",
+        "modules": [
+            {
+                "title": "Introduction to Electromagnetism",
+                "description": "This module lays the foundation of electromagnetism, focusing on its historical significance and basic principles.",
+                "sections": [
+                    {
+                        "title": "History of Electromagnetism",
+                        "description": "Learn about the groundbreaking discoveries and the scientists who paved the way for modern electromagnetics."
+                    },
+                    {
+                        "title": "Fundamental Concepts",
+                        "description": "An overview of charge, electric fields, and magnetic fields, providing a base for more complex topics."
+                    },
+                    {
+                        "title": "Electromagnetic Force",
+                        "description": "Introduction to the electromagnetic force, one of the four fundamental forces of nature."
+                    }
+                ]
+            },
+            {
+                "title": "Electric Fields and Forces",
+                "description": "Dive deeper into electric fields, exploring their impact and the forces they exert on charges.",
+                "sections": [
+                    {
+                        "title": "Understanding Electric Fields",
+                        "description": "Explains what electric fields are and how they are represented."
+                    },
+                    {
+                        "title": "Coulomb's Law",
+                        "description": "Introduction to Coulomb's Law and its applications in calculating the force between charges."
+                    },
+                    {
+                        "title": "Electric Field Lines",
+                        "description": "Illustrates how to visualize electric fields using field lines and their significance."
+                    }
+                ]
+            },
+            {
+                "title": "Magnetic Fields and Forces",
+                "description": "This module explores magnetic fields, their sources, and the forces they exert.",
+                "sections": [
+                    {
+                        "title": "Sources of Magnetic Fields",
+                        "description": "Discussion on natural and artificial sources of magnetic fields."
+                    },
+                    {
+                        "title": "Lorentz Force",
+                        "description": "An introduction to the Lorentz force and how it affects moving charges in magnetic fields."
+                    },
+                    {
+                        "title": "Magnetic Field Lines",
+                        "description": "A detailed look at magnetic field lines and what they tell us about the direction and magnitude of magnetic fields."
+                    }
+                ]
+            },
+            {
+                "title": "Electromagnetic Induction",
+                "description": "Understand how changing magnetic fields can induce electrical currents and vice versa.",
+                "sections": [
+                    {
+                        "title": "Faraday's Law of Induction",
+                        "description": "Learn about the discovery of electromagnetic induction and its fundamental principles."
+                    },
+                    {
+                        "title": "Lenz's Law",
+                        "description": "Delves into Lenz's Law and its importance in predicting the direction of induced currents."
+                    },
+                    {
+                        "title": "Applications of Electromagnetic Induction",
+                        "description": "Explore the practical applications of electromagnetic induction in technology and daily life."
+                    }
+                ]
+            },
+            {
+                "title": "Maxwell's Equations",
+                "description": "Explore Maxwell's Equations and their significance in unifying electricity and magnetism into electromagnetism.",
+                "sections": [
+                    {
+                        "title": "Overview of Maxwell's Equations",
+                        "description": "A concise introduction to the four equations that form the foundation of classical electromagnetism."
+                    },
+                    {
+                        "title": "Gauss's Law for Electricity",
+                        "description": "In-depth discussion on Gauss's Law and its implications for electric fields and charge."
+                    },
+                    {
+                        "title": "Gauss's Law for Magnetism",
+                        "description": "Explains the concept of magnetic monopoles and why Gauss's law applies to magnetism."
+                    },
+                    {
+                        "title": "Faraday's Law and Ampere's Law",
+                        "description": "Detailed examination of the last two of Maxwell's Equations and their interconnectedness."
+                    }
+                ]
+            },
+            {
+                "title": "Electromagnetic Waves",
+                "description": "Discover how electromagnetic fields propagate through space as waves.",
+                "sections": [
+                    {
+                        "title": "Nature of Electromagnetic Waves",
+                        "description": "Introduction to the properties and the dual (wave and particle) nature of electromagnetic waves."
+                    },
+                    {
+                        "title": "The Electromagnetic Spectrum",
+                        "description": "An overview of the entire electromagnetic spectrum, from gamma rays to radio waves."
+                    },
+                    {
+                        "title": "Applications of Electromagnetic Waves",
+                        "description": "Explores how different electromagnetic waves are harnessed for technology and communication."
+                    }
+                ]
+            },
+            {
+                "title": "AC Circuits and Transformers",
+                "description": "Learn about alternating current (AC) circuits, transformers, and their role in electrical power distribution.",
+                "sections": [
+                    {
+                        "title": "Introduction to AC Circuits",
+                        "description": "Basic principles of alternating current and how AC circuits differ from DC circuits."
+                    },
+                    {
+                        "title": "Transformers",
+                        "description": "Operation and applications of transformers in stepping voltage levels up or down."
+                    },
+                    {
+                        "title": "Power Distribution",
+                        "description": "Understanding the electrical power distribution system and the role of AC circuits and transformers."
+                    }
+                ]
+            },
+            {
+                "title": "Practical Applications of Electromagnetism",
+                "description": "Exploring the real-world applications of electromagnetism in modern technology and daily life.",
+                "sections": [
+                    {
+                        "title": "Motors and Generators",
+                        "description": "Examining how electromagnetic principles are utilized in electric motors and generators."
+                    },
+                    {
+                        "title": "Telecommunications",
+                        "description": "The role of electromagnetic waves in the development and functioning of telecommunications technology."
+                    },
+                    {
+                        "title": "Medical Applications",
+                        "description": "Insight into the use of electromagnetism in medical imaging and treatment."
+                    }
+                ]
+            },
+            {
+                "title": "Conclusion and Future of Electromagnetism",
+                "description": "Summarizing key concepts and exploring future trends and technologies in the field of electromagnetism.",
+                "sections": [
+                    {
+                        "title": "Review of Key Concepts",
+                        "description": "A comprehensive review of the most important concepts covered in the course."
+                    },
+                    {
+                        "title": "Emerging Technologies and Research",
+                        "description": "Discussing promising research and potential future advancements in electromagnetism."
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Overview</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .course { margin-bottom: 20px; }
+        .module { margin-left: 20px; margin-top: 10px; }
+        .section { margin-left: 40px; margin-top: 5px; }
+    </style>
+</head>
+<body>
+
+<div id="courseContainer"></div>
+
+<script>
+    // Function to render courses
+    function renderCourses(courses) {
+        const container = document.getElementById('courseContainer');
+
+        courses.forEach(course => {
+            const courseElem = document.createElement('div');
+            courseElem.className = 'course';
+            courseElem.innerHTML = `<h2>${course.course_title}</h2>`;
+
+            course.modules.forEach((module, index) => {
+                // Directly access the module properties, as it's not nested under a key
+                const moduleElem = document.createElement('div');
+                moduleElem.className = 'module';
+                moduleElem.innerHTML = `<h3>${index + 1}. ${module.title}</h3><p>${module.description}</p>`;
+
+                module.sections.forEach((section, idx) => {
+                    // Directly access the section properties, as it's not nested under a key
+                    const sectionElem = document.createElement('div');
+                    sectionElem.className = 'section';
+                    sectionElem.innerHTML = `<h4>${idx + 1}. ${section.title}</h4><p>${section.description}</p>`;
+                    moduleElem.appendChild(sectionElem);
+                });
+
+                courseElem.appendChild(moduleElem);
+            });
+
+            container.appendChild(courseElem);
+        });
+    }
+
+
+    // Fetch and render courses from data.json
+    async function fetchAndRenderCourses() {
+        try {
+            const response = await fetch('../static/data/data_{{data_num}}.json');
+            const courses = await response.json();
+            renderCourses(courses);
+        } catch (error) {
+            console.error('Failed to load course data:', error);
+        }
+    }
+    
+    // Call the function to load and render courses when the page is ready
+    fetchAndRenderCourses();
+</script>
+
+</body>
+</html>
